@@ -33,92 +33,119 @@ app.controller('Principal',['$scope','$compile',function($scope,$compile){
 
   $scope.accordionArray = 
   [
+	{"title":"Diversity","topContent":"Browse by issue","bottomContent":null,"subCollection":[
+		{"title":"Diversity Black Community Services Center","topContent":null,"bottomContent":null, "subCollection":[
+			{"title":"Administrators","topContent":null,"bottomContent":null, "subCollection":[
+				{"title":"Jan Barker Alexander","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Assistant Dean of Students and Director</div><div class=\"category-strip\">jbarker@stanford.edu</div></div>","bottomContent":null},
+			]},
+		]},
+		{"title":"Diversity Diversity and First-Gen","topContent":null,"bottomContent":null, "subCollection":[
+			{"title":"Administrators","topContent":null,"bottomContent":null, "subCollection":[
+				{"title":"Adriena Brown","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Assistant Director of First-Generation and Low Income Programs</div><div class=\"category-strip\">adriena@stanford.edu</div><div class=\"category-strip\"><a href=\"https://diversityandfirstgen.stanford.edu/who-we-are\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Dereca Blackmon","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Associate Dean and Director</div><div class=\"category-strip\">dereca@stanford.edu</div><div class=\"category-strip\"><a href=\"https://diversityandfirstgen.stanford.edu/who-we-are\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Jennifer Rolen","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Assistant Dean & Associate Director</div><div class=\"category-strip\">jrolen@stanford.edu</div><div class=\"category-strip\"><a href=\"https://diversityandfirstgen.stanford.edu/who-we-are\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Joseph Brown","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Associate Director</div><div class=\"category-strip\">jlbrown@stanford.edu</div><div class=\"category-strip\"><a href=\"https://diversityandfirstgen.stanford.edu/who-we-are\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+			]},
+		]},
+	]},
+	{"title":"Drugs and Alcohol","topContent":"Browse by issue","bottomContent":null,"subCollection":[
+		{"title":"Drugs and Alcohol Drugs and Alcohol","topContent":null,"bottomContent":null, "subCollection":[
+			{"title":"Administrators","topContent":null,"bottomContent":null, "subCollection":[
+				{"title":"Natalie Thomas","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Assistant Dean of Students & Education and Outreach Manager</div><div class=\"category-strip\">thomasnc@stanford.edu</div></div>","bottomContent":null},
+				{"title":"Ralph Castro","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Associate Dean of Students & Director</div><div class=\"category-strip\">rjcastro@stanford.edu</div></div>","bottomContent":null},
+				{"title":"Trista Shideler","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Assistant Director & Community Engagement Coordinator</div><div class=\"category-strip\">tshidele@stanford.edu</div></div>","bottomContent":null},
+			]},
+		]},
+	]},
+	{"title":"Education","topContent":"Browse by issue","bottomContent":null,"subCollection":[
+		{"title":"Education Undergraduate Education","topContent":null,"bottomContent":null, "subCollection":[
+			{"title":"Administrators","topContent":null,"bottomContent":null, "subCollection":[
+				{"title":"Harry Elam","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Senior Vice Provost for Education, Vice President for the Arts, Freeman-Thornton Vice Provost for Undergraduate Education, Olive H. Palmer Professor in the Humanities</div><div class=\"category-strip\"><a href=\"https://undergrad.stanford.edu/about/meet-vice-provost\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Sarah Church","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Senior Associate Vice Provost</div><div class=\"category-strip\">schurch@stanford.edu</div><div class=\"category-strip\"><a href=\"https://undergrad.stanford.edu/about/contact-us/vpue-program-offices\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Sharon Palmer","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Associate Vice Provost</div><div class=\"category-strip\">sharon.palmer@stanford.edu</div><div class=\"category-strip\"><a href=\"https://undergrad.stanford.edu/about/contact-us/vpue-program-offices\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+			]},
+		]},
+	]},
+	{"title":"Housing and Dining","topContent":"Browse by issue","bottomContent":null,"subCollection":[
+		{"title":"Housing and Dining Dining","topContent":null,"bottomContent":null, "subCollection":[
+			{"title":"Administrators","topContent":null,"bottomContent":null, "subCollection":[
+				{"title":"Shirley Everett","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Senior Associate Vice Provost</div><div class=\"category-strip\">ssje@stanford.edu</div><div class=\"category-strip\"><a href=\"https://rde.stanford.edu/leadership\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+			]},
+		]},
+		{"title":"Housing and Dining Housing","topContent":null,"bottomContent":null, "subCollection":[
+			{"title":"Administrators","topContent":null,"bottomContent":null, "subCollection":[
+				{"title":"Shirley Everett","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Senior Associate Vice Provost</div><div class=\"category-strip\">ssje@stanford.edu</div><div class=\"category-strip\"><a href=\"https://rde.stanford.edu/leadership\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+			]},
+		]},
+	]},
 	{"title":"Mental Health","topContent":"Browse by issue","bottomContent":null,"subCollection":[
 		{"title":"Mental Health Awareness","topContent":null,"bottomContent":null, "subCollection":[
 			{"title":"Administrators","topContent":null,"bottomContent":null, "subCollection":[
-				{"title":"Deborah Golder","topContent":['Associate Vice Provost and Dean of Residential Education, dgolder@stanford.edu, https://studentaffairs.stanford.edu/who-we-are/residential-education'],"bottomContent":null},
-				{"title":"Lisa De La Cruz Caldera","topContent":['Lead Residence Dean, lisadlc@stanford.edu, https://resed.stanford.edu/people/lisa-de-la-cruz-caldera'],"bottomContent":null},
-			]},
-			{"title":"Committees","topContent":null,"bottomContent":null, "subCollection":[
+				{"title":"Deborah Golder","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Associate Vice Provost and Dean of Residential Education</div><div class=\"category-strip\">dgolder@stanford.edu</div><div class=\"category-strip\"><a href=\"https://studentaffairs.stanford.edu/who-we-are/residential-education\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Lisa De La Cruz Caldera","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Lead Residence Dean</div><div class=\"category-strip\">lisadlc@stanford.edu</div><div class=\"category-strip\"><a href=\"https://resed.stanford.edu/people/lisa-de-la-cruz-caldera\" target=\"_blank\">website</a></div></div>","bottomContent":null},
 			]},
 			{"title":"Groups","topContent":null,"bottomContent":null, "subCollection":[
-				{"title":"Group ASSU Senate","topContent":['https://associatedstudents.stanford.edu/undergraduate-senate'],"bottomContent":null},
-				{"title":"Group Stanford Mental Health Outreach","topContent":['http://smho.stanford.edu'],"bottomContent":null},
-				{"title":"Group The Bridge Peer Counseling Center","topContent":['http://thebridge.stanford.edu'],"bottomContent":null},
-				{"title":"Group We Continue","topContent":['http://www.wecontinue.org'],"bottomContent":null},
-				{"title":"Group Stanford+Mental Health","topContent":['https://orgsync.com/139262/chapter'],"bottomContent":null},
+				{"title":"Group ASSU Senate","topContent":"<div class=\"category-strip\"><a href=\"https://associatedstudents.stanford.edu/undergraduate-senate\">website</a></div>","bottomContent":null},
+				{"title":"Group Stanford Mental Health Outreach","topContent":"<div class=\"category-strip\"><a href=\"http://smho.stanford.edu\">website</a></div>","bottomContent":null},
+				{"title":"Group The Bridge Peer Counseling Center","topContent":"<div class=\"category-strip\"><a href=\"http://thebridge.stanford.edu\">website</a></div>","bottomContent":null},
+				{"title":"Group We Continue","topContent":"<div class=\"category-strip\"><a href=\"http://www.wecontinue.org\">website</a></div>","bottomContent":null},
+				{"title":"Group Stanford+Mental Health","topContent":"<div class=\"category-strip\"><a href=\"https://orgsync.com/139262/chapter\">website</a></div>","bottomContent":null},
 			]},
 		]},
 		{"title":"Mental Health Crisis Management","topContent":null,"bottomContent":null, "subCollection":[
 			{"title":"Administrators","topContent":null,"bottomContent":null, "subCollection":[
-				{"title":"Alejandro Martinez","topContent":['Associate Dean of Students, A.Martinez@stanford.edu'],"bottomContent":null},
-				{"title":"Chris Griffith","topContent":['Associate Vice Provost and Dean of Students, griffith@stanford.edu, https://studentaffairs.stanford.edu/who-we-are/dean-students'],"bottomContent":null},
-				{"title":"Deborah Golder","topContent":['Associate Vice Provost and Dean of Residential Education, dgolder@stanford.edu, https://studentaffairs.stanford.edu/who-we-are/residential-education'],"bottomContent":null},
-				{"title":"Lisa De La Cruz Caldera","topContent":['Lead Residence Dean, lisadlc@stanford.edu, https://resed.stanford.edu/people/lisa-de-la-cruz-caldera'],"bottomContent":null},
-			]},
-			{"title":"Committees","topContent":null,"bottomContent":null, "subCollection":[
-			]},
-			{"title":"Groups","topContent":null,"bottomContent":null, "subCollection":[
+				{"title":"Alejandro Martinez","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Associate Dean of Students</div><div class=\"category-strip\">A.Martinez@stanford.edu</div></div>","bottomContent":null},
+				{"title":"Chris Griffith","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Associate Vice Provost and Dean of Students</div><div class=\"category-strip\">griffith@stanford.edu</div><div class=\"category-strip\"><a href=\"https://studentaffairs.stanford.edu/who-we-are/dean-students\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Deborah Golder","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Associate Vice Provost and Dean of Residential Education</div><div class=\"category-strip\">dgolder@stanford.edu</div><div class=\"category-strip\"><a href=\"https://studentaffairs.stanford.edu/who-we-are/residential-education\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Lisa De La Cruz Caldera","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Lead Residence Dean</div><div class=\"category-strip\">lisadlc@stanford.edu</div><div class=\"category-strip\"><a href=\"https://resed.stanford.edu/people/lisa-de-la-cruz-caldera\" target=\"_blank\">website</a></div></div>","bottomContent":null},
 			]},
 		]},
 		{"title":"Mental Health Suicide Prevention","topContent":null,"bottomContent":null, "subCollection":[
-			{"title":"Administrators","topContent":null,"bottomContent":null, "subCollection":[
-			]},
-			{"title":"Committees","topContent":null,"bottomContent":null, "subCollection":[
-			]},
 			{"title":"Groups","topContent":null,"bottomContent":null, "subCollection":[
-				{"title":"Group We Continue","topContent":['http://www.wecontinue.org'],"bottomContent":null},
+				{"title":"Group We Continue","topContent":"<div class=\"category-strip\"><a href=\"http://www.wecontinue.org\">website</a></div>","bottomContent":null},
 			]},
 		]},
 		{"title":"Mental Health Treatment","topContent":null,"bottomContent":null, "subCollection":[
 			{"title":"Administrators","topContent":null,"bottomContent":null, "subCollection":[
-				{"title":"Carole Pertofsky","topContent":['Director of Wellness and Health Promotion Services, perto@stanford.edu, https://vaden.stanford.edu/people/carole-pertofsky-med'],"bottomContent":null},
-				{"title":"Inge Hansen","topContent":['Assistant Director for Outreach / Director, Weiland Health Initiative, ihansen@stanford.edu, https://vaden.stanford.edu/people/inge-hansen-psyd'],"bottomContent":null},
-				{"title":"James Jacobs","topContent":['Executive Director of Vaden Health Center; Associate Vice Provost for Student Affairs, jamesrj@stanford.edu, https://vaden.stanford.edu/people/james-r-jacobs-md-phd'],"bottomContent":null},
-				{"title":"Ronald Albucher","topContent":['Staff Psychiatrist, albucher@stanford.edu, https://vaden.stanford.edu/people/ronald-c-albucher-md'],"bottomContent":null},
-			]},
-			{"title":"Committees","topContent":null,"bottomContent":null, "subCollection":[
+				{"title":"Carole Pertofsky","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Director of Wellness and Health Promotion Services</div><div class=\"category-strip\">perto@stanford.edu</div><div class=\"category-strip\"><a href=\"https://vaden.stanford.edu/people/carole-pertofsky-med\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Inge Hansen","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Assistant Director for Outreach / Director, Weiland Health Initiative</div><div class=\"category-strip\">ihansen@stanford.edu</div><div class=\"category-strip\"><a href=\"https://vaden.stanford.edu/people/inge-hansen-psyd\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"James Jacobs","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Executive Director of Vaden Health Center; Associate Vice Provost for Student Affairs</div><div class=\"category-strip\">jamesrj@stanford.edu</div><div class=\"category-strip\"><a href=\"https://vaden.stanford.edu/people/james-r-jacobs-md-phd\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Ronald Albucher","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Staff Psychiatrist</div><div class=\"category-strip\">albucher@stanford.edu</div><div class=\"category-strip\"><a href=\"https://vaden.stanford.edu/people/ronald-c-albucher-md\" target=\"_blank\">website</a></div></div>","bottomContent":null},
 			]},
 			{"title":"Groups","topContent":null,"bottomContent":null, "subCollection":[
-				{"title":"Group The Bridge Peer Counseling Center","topContent":['http://thebridge.stanford.edu'],"bottomContent":null},
+				{"title":"Group The Bridge Peer Counseling Center","topContent":"<div class=\"category-strip\"><a href=\"http://thebridge.stanford.edu\">website</a></div>","bottomContent":null},
 			]},
 		]},
 		{"title":"Mental Health Wellness","topContent":null,"bottomContent":null, "subCollection":[
 			{"title":"Administrators","topContent":null,"bottomContent":null, "subCollection":[
-				{"title":"Carole Pertofsky","topContent":['Director of Wellness and Health Promotion Services, perto@stanford.edu, https://vaden.stanford.edu/people/carole-pertofsky-med'],"bottomContent":null},
-				{"title":"Inge Hansen","topContent":['Assistant Director for Outreach / Director, Weiland Health Initiative, ihansen@stanford.edu, https://vaden.stanford.edu/people/inge-hansen-psyd'],"bottomContent":null},
-				{"title":"James Jacobs","topContent":['Executive Director of Vaden Health Center; Associate Vice Provost for Student Affairs, jamesrj@stanford.edu, https://vaden.stanford.edu/people/james-r-jacobs-md-phd'],"bottomContent":null},
-				{"title":"Jane Shaw","topContent":['Dean for Religious Life and Professor of Religious Studies, janeshaw@stanford.edu, https://religiouslife.stanford.edu/people/rev-professor-jane-shaw'],"bottomContent":null},
-				{"title":"Joanne Sanders","topContent":['Associate Dean for Religious Life, joanne.sanders@stanford.edu, https://religiouslife.stanford.edu/people/rev-joanne-sanders'],"bottomContent":null},
-				{"title":"Patricia Karlin-Neumann","topContent":['Senior Associate Dean for Religious Life, rabbipkn@stanford.edu, https://religiouslife.stanford.edu/people/rabbi-patricia-karlin-neumann'],"bottomContent":null},
-				{"title":"Sughra Ahmed","topContent":['Associate Dean for Religious Life, sughra@stanford.edu, https://religiouslife.stanford.edu/people/sughra-ahmed'],"bottomContent":null},
-			]},
-			{"title":"Committees","topContent":null,"bottomContent":null, "subCollection":[
+				{"title":"Carole Pertofsky","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Director of Wellness and Health Promotion Services</div><div class=\"category-strip\">perto@stanford.edu</div><div class=\"category-strip\"><a href=\"https://vaden.stanford.edu/people/carole-pertofsky-med\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Inge Hansen","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Assistant Director for Outreach / Director, Weiland Health Initiative</div><div class=\"category-strip\">ihansen@stanford.edu</div><div class=\"category-strip\"><a href=\"https://vaden.stanford.edu/people/inge-hansen-psyd\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"James Jacobs","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Executive Director of Vaden Health Center; Associate Vice Provost for Student Affairs</div><div class=\"category-strip\">jamesrj@stanford.edu</div><div class=\"category-strip\"><a href=\"https://vaden.stanford.edu/people/james-r-jacobs-md-phd\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Jane Shaw","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Dean for Religious Life and Professor of Religious Studies</div><div class=\"category-strip\">janeshaw@stanford.edu</div><div class=\"category-strip\"><a href=\"https://religiouslife.stanford.edu/people/rev-professor-jane-shaw\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Joanne Sanders","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Associate Dean for Religious Life</div><div class=\"category-strip\">joanne.sanders@stanford.edu</div><div class=\"category-strip\"><a href=\"https://religiouslife.stanford.edu/people/rev-joanne-sanders\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Patricia Karlin-Neumann","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Senior Associate Dean for Religious Life</div><div class=\"category-strip\">rabbipkn@stanford.edu</div><div class=\"category-strip\"><a href=\"https://religiouslife.stanford.edu/people/rabbi-patricia-karlin-neumann\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Sughra Ahmed","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Associate Dean for Religious Life</div><div class=\"category-strip\">sughra@stanford.edu</div><div class=\"category-strip\"><a href=\"https://religiouslife.stanford.edu/people/sughra-ahmed\" target=\"_blank\">website</a></div></div>","bottomContent":null},
 			]},
 			{"title":"Groups","topContent":null,"bottomContent":null, "subCollection":[
-				{"title":"Group The Bridge Peer Counseling Center","topContent":['http://thebridge.stanford.edu'],"bottomContent":null},
-				{"title":"Group The Stanford Happiness Collective","topContent":['https://orgsync.com/50652/chapter'],"bottomContent":null},
+				{"title":"Group The Bridge Peer Counseling Center","topContent":"<div class=\"category-strip\"><a href=\"http://thebridge.stanford.edu\">website</a></div>","bottomContent":null},
+				{"title":"Group The Stanford Happiness Collective","topContent":"<div class=\"category-strip\"><a href=\"https://orgsync.com/50652/chapter\">website</a></div>","bottomContent":null},
 			]},
 		]},
 	]},
 	{"title":"Sexual Violence","topContent":"Browse by issue","bottomContent":null,"subCollection":[
 		{"title":"Sexual Violence Advocacy","topContent":null,"bottomContent":null, "subCollection":[
-			{"title":"Administrators","topContent":null,"bottomContent":null, "subCollection":[
-			]},
-			{"title":"Committees","topContent":null,"bottomContent":null, "subCollection":[
-			]},
 			{"title":"Groups","topContent":null,"bottomContent":null, "subCollection":[
-				{"title":"Group ASSU Exec","topContent":['https://associatedstudents.stanford.edu/executive-landing'],"bottomContent":null},
-				{"title":"Group Stanford Association of Students for Sexual Assault Prevention","topContent":['https://orgsync.com/129622/chapter'],"bottomContent":null},
+				{"title":"Group ASSU Exec","topContent":"<div class=\"category-strip\"><a href=\"https://associatedstudents.stanford.edu/executive-landing\">website</a></div>","bottomContent":null},
+				{"title":"Group Stanford Association of Students for Sexual Assault Prevention","topContent":"<div class=\"category-strip\"><a href=\"https://orgsync.com/129622/chapter\">website</a></div>","bottomContent":null},
 			]},
 		]},
 		{"title":"Sexual Violence Campus Climate Survey","topContent":null,"bottomContent":null, "subCollection":[
 			{"title":"Administrators","topContent":null,"bottomContent":null, "subCollection":[
-				{"title":"Brian Cook","topContent":['Director of Assessment and Program Evaluation, bcook@stanford.edu'],"bottomContent":null},
-				{"title":"Corrie Potter","topContent":['Associate Vice Provost and Director, cjpotter@stanford.edu'],"bottomContent":null},
-				{"title":"Lauren Schoenthaler","topContent":['Senior Associate Vice Provost for Institutional Equity and Access, lks@stanford.edu, https://equity.stanford.edu/people/lauren-knudsen-schoenthaler'],"bottomContent":null},
-				{"title":"Stephanie Kalfayan","topContent":['Vice Provost for Academic Affairs, kalfayan@stanford.edu'],"bottomContent":null},
-				{"title":"Susie Brubaker-Cole","topContent":['Vice Provost for Student Affairs, susiebc@stanford.edu, https://studentaffairs.stanford.edu/who-we-are/vice-provost-student-affairs'],"bottomContent":null},
+				{"title":"Brian Cook","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Director of Assessment and Program Evaluation</div><div class=\"category-strip\">bcook@stanford.edu</div></div>","bottomContent":null},
+				{"title":"Corrie Potter","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Associate Vice Provost and Director</div><div class=\"category-strip\">cjpotter@stanford.edu</div></div>","bottomContent":null},
+				{"title":"Lauren Schoenthaler","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Senior Associate Vice Provost for Institutional Equity and Access</div><div class=\"category-strip\">lks@stanford.edu</div><div class=\"category-strip\"><a href=\"https://equity.stanford.edu/people/lauren-knudsen-schoenthaler\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Stephanie Kalfayan","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Vice Provost for Academic Affairs</div><div class=\"category-strip\">kalfayan@stanford.edu</div></div>","bottomContent":null},
+				{"title":"Susie Brubaker-Cole","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Vice Provost for Student Affairs</div><div class=\"category-strip\">susiebc@stanford.edu</div><div class=\"category-strip\"><a href=\"https://studentaffairs.stanford.edu/who-we-are/vice-provost-student-affairs\" target=\"_blank\">website</a></div></div>","bottomContent":null},
 			]},
 			{"title":"Committees","topContent":null,"bottomContent":null, "subCollection":[
 				{"title":"Campus Climate Survey Committee","topContent":null,"bottomContent":null, "subCollection":[
@@ -136,15 +163,13 @@ app.controller('Principal',['$scope','$compile',function($scope,$compile){
 					{"title":"Susie Brubaker-Cole","topContent":null,"bottomContent":null},
 				]},
 			]},
-			{"title":"Groups","topContent":null,"bottomContent":null, "subCollection":[
-			]},
 		]},
 		{"title":"Sexual Violence Education and Prevention","topContent":null,"bottomContent":null, "subCollection":[
 			{"title":"Administrators","topContent":null,"bottomContent":null, "subCollection":[
-				{"title":"Brianna Booth","topContent":['Director of Positive Sexuality, Design & Development, boothbk@stanford.edu, https://sara.stanford.edu/about-sara/our-team-2'],"bottomContent":null},
-				{"title":"Carley Flanery","topContent":['Director of Office of Sexual Assualt and Relationship Abuse Education & Response, cflanery@stanford.edu, https://sara.stanford.edu/about-sara/our-team-2'],"bottomContent":null},
-				{"title":"Grace Poon","topContent":['Coordinator of Prevention Education and Training, gpoon1@stanford.edu, https://equity.stanford.edu/people/grace-poon'],"bottomContent":null},
-				{"title":"Lauren Schoenthaler","topContent":['Senior Associate Vice Provost for Institutional Equity and Access, lks@stanford.edu, https://equity.stanford.edu/people/lauren-knudsen-schoenthaler'],"bottomContent":null},
+				{"title":"Brianna Booth","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Director of Positive Sexuality, Design & Development</div><div class=\"category-strip\">boothbk@stanford.edu</div><div class=\"category-strip\"><a href=\"https://sara.stanford.edu/about-sara/our-team-2\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Carley Flanery","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Director of Office of Sexual Assualt and Relationship Abuse Education & Response</div><div class=\"category-strip\">cflanery@stanford.edu</div><div class=\"category-strip\"><a href=\"https://sara.stanford.edu/about-sara/our-team-2\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Grace Poon","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Coordinator of Prevention Education and Training</div><div class=\"category-strip\">gpoon1@stanford.edu</div><div class=\"category-strip\"><a href=\"https://equity.stanford.edu/people/grace-poon\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Lauren Schoenthaler","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Senior Associate Vice Provost for Institutional Equity and Access</div><div class=\"category-strip\">lks@stanford.edu</div><div class=\"category-strip\"><a href=\"https://equity.stanford.edu/people/lauren-knudsen-schoenthaler\" target=\"_blank\">website</a></div></div>","bottomContent":null},
 			]},
 			{"title":"Committees","topContent":null,"bottomContent":null, "subCollection":[
 				{"title":"Sexual Assault and Relationship Abuse Advisory Board","topContent":null,"bottomContent":null, "subCollection":[
@@ -154,22 +179,20 @@ app.controller('Principal',['$scope','$compile',function($scope,$compile){
 					{"title":"Katherine Carey","topContent":null,"bottomContent":null},
 				]},
 			]},
-			{"title":"Groups","topContent":null,"bottomContent":null, "subCollection":[
-			]},
 		]},
 		{"title":"Sexual Violence Survivor Resources","topContent":null,"bottomContent":null, "subCollection":[
 			{"title":"Administrators","topContent":null,"bottomContent":null, "subCollection":[
-				{"title":"Brianna Booth","topContent":['Director of Positive Sexuality, Design & Development, boothbk@stanford.edu, https://sara.stanford.edu/about-sara/our-team-2'],"bottomContent":null},
-				{"title":"Carley Flanery","topContent":['Director of Office of Sexual Assualt and Relationship Abuse Education & Response, cflanery@stanford.edu, https://sara.stanford.edu/about-sara/our-team-2'],"bottomContent":null},
-				{"title":"Catherine Glaze","topContent":['Title IX Coordinator, cglaze@stanford.edu, https://equity.stanford.edu/people/catherine-glaze'],"bottomContent":null},
-				{"title":"Grace Poon","topContent":['Coordinator of Prevention Education and Training, gpoon1@stanford.edu, https://equity.stanford.edu/people/grace-poon'],"bottomContent":null},
-				{"title":"Helen Wilson","topContent":['Director, Confidential Support Team, hwilson3@stanford.edu, https://vaden.stanford.edu/people/helen-w-wilson-phd'],"bottomContent":null},
-				{"title":"Jane Shaw","topContent":['Dean for Religious Life and Professor of Religious Studies, janeshaw@stanford.edu, https://religiouslife.stanford.edu/people/rev-professor-jane-shaw'],"bottomContent":null},
-				{"title":"Joanne Sanders","topContent":['Associate Dean for Religious Life, joanne.sanders@stanford.edu, https://religiouslife.stanford.edu/people/rev-joanne-sanders'],"bottomContent":null},
-				{"title":"Lauren Schoenthaler","topContent":['Senior Associate Vice Provost for Institutional Equity and Access, lks@stanford.edu, https://equity.stanford.edu/people/lauren-knudsen-schoenthaler'],"bottomContent":null},
-				{"title":"Miranda Tuttle","topContent":['Outreach and Student Resources Manager, mtuttle@stanford.edu, https://equity.stanford.edu/people/miranda-tuttle'],"bottomContent":null},
-				{"title":"Patricia Karlin-Neumann","topContent":['Senior Associate Dean for Religious Life, rabbipkn@stanford.edu, https://religiouslife.stanford.edu/people/rabbi-patricia-karlin-neumann'],"bottomContent":null},
-				{"title":"Sughra Ahmed","topContent":['Associate Dean for Religious Life, sughra@stanford.edu, https://religiouslife.stanford.edu/people/sughra-ahmed'],"bottomContent":null},
+				{"title":"Brianna Booth","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Director of Positive Sexuality, Design & Development</div><div class=\"category-strip\">boothbk@stanford.edu</div><div class=\"category-strip\"><a href=\"https://sara.stanford.edu/about-sara/our-team-2\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Carley Flanery","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Director of Office of Sexual Assualt and Relationship Abuse Education & Response</div><div class=\"category-strip\">cflanery@stanford.edu</div><div class=\"category-strip\"><a href=\"https://sara.stanford.edu/about-sara/our-team-2\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Catherine Glaze","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Title IX Coordinator</div><div class=\"category-strip\">cglaze@stanford.edu</div><div class=\"category-strip\"><a href=\"https://equity.stanford.edu/people/catherine-glaze\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Grace Poon","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Coordinator of Prevention Education and Training</div><div class=\"category-strip\">gpoon1@stanford.edu</div><div class=\"category-strip\"><a href=\"https://equity.stanford.edu/people/grace-poon\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Helen Wilson","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Director, Confidential Support Team</div><div class=\"category-strip\">hwilson3@stanford.edu</div><div class=\"category-strip\"><a href=\"https://vaden.stanford.edu/people/helen-w-wilson-phd\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Jane Shaw","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Dean for Religious Life and Professor of Religious Studies</div><div class=\"category-strip\">janeshaw@stanford.edu</div><div class=\"category-strip\"><a href=\"https://religiouslife.stanford.edu/people/rev-professor-jane-shaw\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Joanne Sanders","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Associate Dean for Religious Life</div><div class=\"category-strip\">joanne.sanders@stanford.edu</div><div class=\"category-strip\"><a href=\"https://religiouslife.stanford.edu/people/rev-joanne-sanders\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Lauren Schoenthaler","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Senior Associate Vice Provost for Institutional Equity and Access</div><div class=\"category-strip\">lks@stanford.edu</div><div class=\"category-strip\"><a href=\"https://equity.stanford.edu/people/lauren-knudsen-schoenthaler\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Miranda Tuttle","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Outreach and Student Resources Manager</div><div class=\"category-strip\">mtuttle@stanford.edu</div><div class=\"category-strip\"><a href=\"https://equity.stanford.edu/people/miranda-tuttle\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Patricia Karlin-Neumann","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Senior Associate Dean for Religious Life</div><div class=\"category-strip\">rabbipkn@stanford.edu</div><div class=\"category-strip\"><a href=\"https://religiouslife.stanford.edu/people/rabbi-patricia-karlin-neumann\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Sughra Ahmed","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Associate Dean for Religious Life</div><div class=\"category-strip\">sughra@stanford.edu</div><div class=\"category-strip\"><a href=\"https://religiouslife.stanford.edu/people/sughra-ahmed\" target=\"_blank\">website</a></div></div>","bottomContent":null},
 			]},
 			{"title":"Committees","topContent":null,"bottomContent":null, "subCollection":[
 				{"title":"Confidential Support Team Advisory Board","topContent":null,"bottomContent":null, "subCollection":[
@@ -180,18 +203,12 @@ app.controller('Principal',['$scope','$compile',function($scope,$compile){
 					{"title":"Quito Tsui","topContent":null,"bottomContent":null},
 				]},
 			]},
-			{"title":"Groups","topContent":null,"bottomContent":null, "subCollection":[
-			]},
 		]},
 		{"title":"Sexual Violence Title IX","topContent":null,"bottomContent":null, "subCollection":[
 			{"title":"Administrators","topContent":null,"bottomContent":null, "subCollection":[
-				{"title":"Catherine Glaze","topContent":['Title IX Coordinator, cglaze@stanford.edu, https://equity.stanford.edu/people/catherine-glaze'],"bottomContent":null},
-				{"title":"Lauren Schoenthaler","topContent":['Senior Associate Vice Provost for Institutional Equity and Access, lks@stanford.edu, https://equity.stanford.edu/people/lauren-knudsen-schoenthaler'],"bottomContent":null},
-				{"title":"Miranda Tuttle","topContent":['Outreach and Student Resources Manager, mtuttle@stanford.edu, https://equity.stanford.edu/people/miranda-tuttle'],"bottomContent":null},
-			]},
-			{"title":"Committees","topContent":null,"bottomContent":null, "subCollection":[
-			]},
-			{"title":"Groups","topContent":null,"bottomContent":null, "subCollection":[
+				{"title":"Catherine Glaze","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Title IX Coordinator</div><div class=\"category-strip\">cglaze@stanford.edu</div><div class=\"category-strip\"><a href=\"https://equity.stanford.edu/people/catherine-glaze\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Lauren Schoenthaler","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Senior Associate Vice Provost for Institutional Equity and Access</div><div class=\"category-strip\">lks@stanford.edu</div><div class=\"category-strip\"><a href=\"https://equity.stanford.edu/people/lauren-knudsen-schoenthaler\" target=\"_blank\">website</a></div></div>","bottomContent":null},
+				{"title":"Miranda Tuttle","topContent":"<div class=\"detail-box\"><div class=\"category-strip\">Outreach and Student Resources Manager</div><div class=\"category-strip\">mtuttle@stanford.edu</div><div class=\"category-strip\"><a href=\"https://equity.stanford.edu/people/miranda-tuttle\" target=\"_blank\">website</a></div></div>","bottomContent":null},
 			]},
 		]},
 	]},
